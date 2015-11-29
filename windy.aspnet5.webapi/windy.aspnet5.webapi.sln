@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24627.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B7857085-4110-4D68-9360-84B87023307C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1E832954-0A26-4EE5-869E-014B322DF159}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "windy.aspnet5.webapi", "src\windy.aspnet5.webapi\windy.aspnet5.webapi.xproj", "{0065B374-DBD7-400E-9AFE-273AF504585D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0065B374-DBD7-400E-9AFE-273AF504585D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0065B374-DBD7-400E-9AFE-273AF504585D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0065B374-DBD7-400E-9AFE-273AF504585D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0065B374-DBD7-400E-9AFE-273AF504585D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0065B374-DBD7-400E-9AFE-273AF504585D} = {B7857085-4110-4D68-9360-84B87023307C}
+	EndGlobalSection
+EndGlobal
